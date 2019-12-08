@@ -39,4 +39,9 @@ public class Teatro extends PontoTuristico{
         this.publico = publico;
     }
     
+    @Override
+    public String pegarTipo() {
+        return "Teatro";
+    }
+    
 }

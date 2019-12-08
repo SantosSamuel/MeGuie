@@ -15,6 +15,9 @@ public abstract class PontoTuristico {
     private String localizacao;
     private String bairro;
 
+    
+    public abstract String pegarTipo();
+    
     public PontoTuristico(String nome, String localizacao, String bairro) {
         this.nome = nome;
         this.localizacao = localizacao;

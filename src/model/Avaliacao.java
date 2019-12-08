@@ -14,6 +14,8 @@ public abstract class Avaliacao {
     private String descricao;
     private String data; //DATE
     private int pontuacao;
+    
+    public abstract String pegarTipo();
 
     public Avaliacao(String titulo, String descricao, String data, int pontuacao) {
         this.titulo = titulo;

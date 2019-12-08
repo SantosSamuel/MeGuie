@@ -57,5 +57,10 @@ public class Hotel extends PontoTuristico{
         this.cafe = cafe;
     }
 
+    @Override
+    public String pegarTipo() {
+        return "Hotel";
+    }
+
     
 }

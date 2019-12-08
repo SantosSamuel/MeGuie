@@ -47,5 +47,8 @@ public class AvaliacaoTeatro extends Avaliacao{
         this.organizacao = organizacao;
     }
     
-    
+    @Override
+    public String pegarTipo() {
+        return "AvaliacaoHotel";
+    }
 }

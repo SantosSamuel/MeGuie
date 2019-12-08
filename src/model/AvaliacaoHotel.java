@@ -57,5 +57,8 @@ public class AvaliacaoHotel extends Avaliacao{
         this.motivo = motivo;
     }
     
-    
+    @Override
+    public String pegarTipo() {
+        return "AvaliacaoHotel";
+    }
 }

@@ -9,7 +9,7 @@ package model;
  *
  * @author Samuel
  */
-public class Usuario {
+public abstract class Usuario {
     private String emailLogin;
     private String hashSenha;
     private String sexo;
@@ -57,5 +57,6 @@ public class Usuario {
         this.nomeCompleto = nomeCompleto;
     }
     
+    public abstract void autenticar();
     
 }

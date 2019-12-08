@@ -22,8 +22,7 @@ import model.Usuario;
 public class ControllerMeGuie {
     static ArrayList<Usuario> usuarios = new ArrayList<>();
     static ArrayList<Cidade> cidades = new ArrayList<>();
-    static ArrayList<Teatro> teatros = new ArrayList<>();
-    static ArrayList<Hotel> hoteis = new ArrayList<>();
+    static ArrayList<PontoTuristico> pontosTuristicos = new ArrayList<>();
     static ArrayList<Avaliacao> avaliacoes = new ArrayList<>();
     
     static Usuario usuario = new Usuario();

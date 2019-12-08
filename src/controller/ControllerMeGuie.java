@@ -49,7 +49,12 @@ public class ControllerMeGuie {
         return true;
     }
     public boolean cadastrarPontoTusistico(boolean internacional, boolean publico, String nome, String localizacao, String bairro, int estrelas, float preco, boolean ar, boolean cafe){
-        
+
+        usuarios.add(new Usuario(nomeCompleto, emailLogin, hashSenha, sexo));
+        return true;
+    }
+    
+    public boolean cadastrarPontoTusistico(boolean internacional, boolean publico, String nome, String localizacao, String bairro, int estrelas, float preco, boolean ar, boolean cafe){
         
         for(int i=0; i<pontosTuristicos.size(); i++){
             if(pontosTuristicos.get(i).getNome().equals(nome)){
